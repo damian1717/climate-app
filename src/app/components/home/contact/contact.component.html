@@ -1,0 +1,35 @@
+<section class="section" id="contact">
+  <div class="container contact">
+    <div class="section-box">
+      <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+        <h3 class="contact-pre-title big-subtitle">
+          05. Kontakt
+        </h3>
+      </div>
+      <p data-aos="fade-up" data-aos-duration="1000">
+        Telefon: 531-799-977
+      </p>
+      <p data-aos="fade-up" data-aos-duration="1000">
+        Email: xxxxxxxxxxxxxxxx
+      </p>
+      <div class="mt-5">
+        <a
+          (click)="
+            analyticsService.sendAnalyticEvent(
+              'click_send_mail',
+              'contact',
+              'email'
+            )
+          "
+          href="mailto:xxxxxx@gmail.com"
+          target="_blank"
+          class="main-btn"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          Wyślij wiadomość
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
